@@ -1,5 +1,5 @@
 <?php
-namespace Oneso\LaravelPlugins;
+namespace Astutesixface\LaravelPlugins;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\Str;
