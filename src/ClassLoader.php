@@ -1,5 +1,5 @@
 <?php
-namespace Oneso\LaravelPlugins;
+namespace Astutesixface\LaravelPlugins;
 
 class ClassLoader
 {
