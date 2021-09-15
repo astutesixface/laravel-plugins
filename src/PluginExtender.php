@@ -1,5 +1,5 @@
 <?php
-namespace Oneso\LaravelPlugins;
+namespace Astutesixface\LaravelPlugins;
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Symfony\Component\Finder\SplFileInfo;
