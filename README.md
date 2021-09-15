@@ -4,10 +4,10 @@ Plugins can overwrite and extend each other.
 
 ## Usage
 For Lumen add to bootstrap/app.php:
-`$app->register(\Oneso\LaravelPlugins\PluginServiceProvider::class);`
+`$app->register(\Astutesixface\LaravelPlugins\PluginServiceProvider::class);`
 
 For Laravel add to 'providers' array in config/app.php:
-`\Oneso\LaravelPlugins\PluginServiceProvider::class,`
+`\Astutesixface\LaravelPlugins\PluginServiceProvider::class,`
 
 ## Create a plugin
 
@@ -24,7 +24,7 @@ Plugins must be in app/Plugins. Example plugin structure:
   - routes.php
   - TestPlugin.php
 
-The TestPlugin class must extend the Oneso\LaravelPlugins\Plugin class, containing a unique $name property and a boot() method.
+The TestPlugin class must extend the Astutesixface\LaravelPlugins\Plugin class, containing a unique $name property and a boot() method.
 
 ### Views
 In the boot() method of your plugin call `$this->enableViews()`.
