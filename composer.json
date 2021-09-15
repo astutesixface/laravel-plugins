@@ -1,20 +1,32 @@
 {
-  "name": "oneso/laravel-plugins",
+  "name": "astutesixface/laravel-plugins",
   "description": "A Laravel and Lumen plugin system",
   "license": "MIT",
   "authors": [
     {
-      "name": "Marcel Görtz",
-      "email": "goertz.marcel@gmail.com"
+      "name": "Arumugam",
+      "email": "sixfacedeveloper@gmail.com",
+      "homepage": "https://astutesixface.com",
+       "role": "Developer"
     }
   ],
   "minimum-stability": "stable",
   "require": {
     "php": ">=5.5.9"
   },
+  "config": {
+        "sort-packages": true
+    },
+  "extra": {
+        "laravel": {
+            "providers": [
+                "astutesixface\\LaravelPlugins\\PluginServiceProvider"
+            ]
+        }
+    },
   "autoload": {
     "psr-4": {
-      "Oneso\\LaravelPlugins\\": "src/"
+      "astutesixface\\LaravelPlugins\\": "src/"
     }
   }
 }
